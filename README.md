@@ -1,76 +1,95 @@
-# AI Club 03 - assisted programming workshop
+# AI Club 03 - Assisted Programming Workshop
 
-Scan the QR code to access the repository.
+## Access the Repository
+
+Scan the QR code below to access the project repository:
 
 <img src="https://api.qrserver.com/v1/create-qr-code/?color=000000&amp;bgcolor=FFFFFF&amp;data=https%3A%2F%2Fgithub.com%2Fhulmaker%2Fai-club&amp;qzone=1&amp;margin=0&amp;size=400x400&amp;ecc=L" alt="qr code" width="200"/>
 
-## About the workshop
-**Who is this for**:
- - **If you already know how to code**: Try to setup a project with cursor and try to really take advantage of the composer mode without coding everything manually from scratch.
- - **If you are new to coding, or a complete beginner**: Either try to follow along. Or try to make a simple project with different tools (v0, replit... about that later)
+## About the Workshop
 
- **Schedule**:
- * 30 min - intro
- * 60 min - project
+### Who Is This For?
+
+This workshop is designed for anyone interested in AI-assisted programming, whether you're an experienced coder looking to optimize your workflow or a beginner exploring new tools.
+
+- **Experienced Coders** – Learn how to effectively use Cursor’s composer mode to streamline your workflow instead of coding everything manually.
+- **Beginners** – Follow along or use alternative tools (V0, Replit, etc.) to create simple projects—more details later.
+
+### Workshop Schedule
+
+- **30 min** – **Introduction**: Overview of AI-assisted programming, introduction to Cursor, and how to leverage AI tools effectively.
+- **60 min** – **Hands-on Project Work**
+
+## Project Options
+
+1. **Data Processing & Visualization** – Scrape data from the internet and visualize it (or use sutka.log to analyze swimming pool visits).
+2. **Console/Graphical Game** – Create a game like Snake or Minesweeper.
+3. **Real-time Face Emotion Detection** – Use a laptop camera to detect facial expressions.
+4. **Other** – Any other project you want to work on.
+
+## Setup Instructions
+
+1. [Install Cursor](https://www.cursor.com/downloads) if you haven’t already.
+2. Clone the repository:
+   ```sh
+   git clone git@github.com:hulmaker/ai-club.git
+   ```
+3. Open the `ai-club` folder in Cursor.
+
+## Guidelines for Project Development
+
+1. **Define Your Project** – Write a clear description in the README or Notepad tab outlining your goals.
+2. **Specify the Environment and Tools** – Identify the programming languages, frameworks, and libraries required.
+3. **Map Inputs and Outputs** – Determine what assets are needed and what results are expected.
+4. **Break Down Tasks** – Structure the project into smaller, manageable tasks for better organization.
+5. **Refine and Iterate** – Regularly review progress, update descriptions, and utilize AI tools for efficiency.
+6. **Test and Finalize** – Ensure functionality, review the final implementation, and document any necessary changes.
 
 
-# Projects
-1. Data Processing and Visualization (web scrape data from the internet and visualize it - e.g. swimming pool visits)
-2. Console/Graphical Game - Snake, minesweeper, ...
-3. Real-time Face emotion detection using a laptop Camera
+## Introduction to Cursor
 
+### Editing Modes
 
-## Setup
-If you haven't already: [install cursor](https://www.cursor.com/downloads)
+- [**Tab**](https://docs.cursor.com/tab/overview) – Autocomplete with smart suggestions based on your recent work.
+- [**Chat**](https://docs.cursor.com/chat/overview) – AI-assisted answers with file references.
+- [**Composer**](https://docs.cursor.com/composer) – AI coding assistant for writing and editing.
+- [**Agent**](https://docs.cursor.com/agent) – Performs coding tasks with minimal supervision.
 
-1. Clone the repository `git clone git@github.com:hulmaker/ai-club.git`
-2. Open the `ai-club` folder in Cursor
+**Hierarchy:** `Tab < Chat < Composer < Agent`
 
-**General guidelines to follow**:
-1. Describe the project (in the readme file, or in the notepad tab).
-2. Describe the project environment, structure and tools wou would like to use.
-3. Describe all the inputs, outputs and the overall process.
-4. Imagine you are the project manager. You need to split the project into smaller parts. Your job is to describe all tasks and formulate what needs to be done.
-5. Review the changes, update the descriptions and use all the tools to make changes so that the output is to your liking.
-6. Repeat until you are done.
+### Context Features
 
+- Select code and use **Edit** for quick modifications or **Chat** for discussions.
+- Use [**@ symbols**](https://docs.cursor.com/context/@-symbols/overview) to reference files, images, documentation, or search the web.
+- Set [**Global/Project Rules**](https://docs.cursor.com/context/rules-for-ai) to establish coding style and conventions.
 
-# Cursor Tour
+### Additional Settings
 
-### Editing modes:
- - [Tab](https://docs.cursor.com/tab/overview): Autocomplete that suggests edits and multi-line changes based on your recent work
- - [chat](https://docs.cursor.com/chat/overview): Uses AI to answer code questions with smart context and file references in your editor. [chat vs. composer confusion](https://forum.cursor.com/t/whats-the-difference-between-chat-and-composer/21879)
- - [composer](https://docs.cursor.com/composer): Coding assistant that helps write and edit code directly in your editor with chat and agent modes.
- - [agent](https://docs.cursor.com/agent): Uses tools and reasoning to perform coding tasks with minimal supervision
+- [**Model Selection**](https://docs.cursor.com/settings/models) – Choose the AI model that best fits your needs.
+- [**MCP Servers**](https://docs.cursor.com/context/model-context-protocol) – Standardized AI context protocol ([Learn More](https://modelcontextprotocol.io/introduction)).
 
-hierarchy: `tab < chat < composer < agent`
+## Useful Resources
 
-### Context:
- - Select a section of the code, then use `Edit` for quick editing, or `Chat` for setting the context in the chat.
- - Use `@` [symbols](https://docs.cursor.com/context/@-symbols/overview) to reference files, images, web pages, documentation, notebooks, or search the web!
- - Set [global/project rules](https://docs.cursor.com/context/rules-for-ai) for general guidelines, style, language, etc: 
+- [Cursor Tips & Tricks](https://youtu.be/A9BiNPf34Z4?si=sIdVXg2vnXbuKwb3)
+- [Cursor Rules](https://github.com/PatrickJS/awesome-cursorrules)
+- [Cursor Directory](https://cursor.directory)
 
-### Other settings:
- - [Models](https://docs.cursor.com/settings/models): Select the model you want to use.
- - [MCP servers](https://docs.cursor.com/context/model-context-protocol): [Model Context Protocol](https://modelcontextprotocol.io/introduction) - standardizes how applications provide context to LLMs
+## Best Practices for AI Prompting
 
- ### Cursor related links, videos, etc:
- - [Cursor tips and tricks](https://youtu.be/A9BiNPf34Z4?si=sIdVXg2vnXbuKwb3)
- - [Cursor rules](https://github.com/PatrickJS/awesome-cursorrules)
- - [Cursor directory](https://cursor.directory)
+- Be **specific** about what you want the AI to do.
+- Provide **clear instructions** instead of asking vague questions.
+- Include **context** such as examples, references, or error messages.
 
-## General prompting tips
- - Be specific about what you want to do, use clear instructions
- - Don't ask, provide instructions
- - Context is important. Provide examples, references, errors, etc...
+### Additional Prompting Resources
 
- More reading on prompting (not too important for coding):
- - [OpenAI Prompt Engineering](https://platform.openai.com/docs/guides/prompt-engineering/strategy-use-external-tools)
- - [Prompting Guide](https://www.promptingguide.ai/)
+- [OpenAI Prompt Engineering](https://platform.openai.com/docs/guides/prompt-engineering/strategy-use-external-tools)
+- [Prompting Guide](https://www.promptingguide.ai/)
 
- # Alternative AI-assisted programming tools
- - [V0](https://v0.dev/) - build a website ([example](https://v0.dev/chat/rewarding-todo-app-J6E72SnGxUq))
- - [Replit](https://replit.com/) - general purpose app builder with a lot of tools
- - [Bolt](https://bolt.new/) - build a website
- - [Windsurf](https://codeium.com/windsurf) - cursor alternative - IDE
- - [Trae](https://www.trae.ai/) - cursor alternative - IDE
+## Alternative AI-Assisted Programming Tools
+
+- [**V0**](https://v0.dev/) – Build websites ([Example](https://v0.dev/chat/rewarding-todo-app-J6E72SnGxUq)).
+- [**Replit**](https://replit.com/) – General-purpose app development.
+- [**Bolt**](https://bolt.new/) – Web development tool.
+- [**Windsurf**](https://codeium.com/windsurf) – Cursor alternative IDE.
+- [**Trae**](https://www.trae.ai/) – Another Cursor alternative IDE.
+
