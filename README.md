@@ -25,14 +25,14 @@ If you haven't already: [install cursor](https://www.cursor.com/downloads)
 
 1. Clone the repository `git clone git@github.com:hulmaker/ai-club.git`
 2. Open the `ai-club` folder in Cursor
-3. Create a virtual environment `python -m venv .env`
-4. Activate the virtual environment `source .env/bin/activate`
-5. Select the `.env` as an interpreter in Cursor `ctrl+shift+p > select interpreter`
 
-
-1. Describe the project (in the readme file, or in the notepad tab) (HOW? Example)
-2. Provide initial instructions - think about the building process and how would you start building it (Try to divide the project into smaller parts)
-3. Iterate - ask the AI to do something, then provide feedback, ask it to do it again, etc.
+**General guidelines to follow**:
+1. Describe the project (in the readme file, or in the notepad tab).
+2. Describe the project environment, structure and tools wou would like to use.
+3. Describe all the inputs, outputs and the overall process.
+4. Imagine you are the project manager. You need to split the project into smaller parts. Your job is to describe all tasks and formulate what needs to be done.
+5. Review the changes, update the descriptions and use all the tools to make changes so that the output is to your liking.
+6. Repeat until you are done.
 
 
 # Cursor Tour
@@ -59,12 +59,18 @@ hierarchy: `tab < chat < composer < agent`
  - [Cursor rules](https://github.com/PatrickJS/awesome-cursorrules)
  - [Cursor directory](https://cursor.directory)
 
+## General prompting tips
+ - Be specific about what you want to do, use clear instructions
+ - Don't ask, provide instructions
+ - Context is important. Provide examples, references, errors, etc...
+
+ More reading on prompting (not too important for coding):
+ - [OpenAI Prompt Engineering](https://platform.openai.com/docs/guides/prompt-engineering/strategy-use-external-tools)
+ - [Prompting Guide](https://www.promptingguide.ai/)
 
  # Alternative AI-assisted programming tools
- - [V0](https://v0.dev/) - build a website
+ - [V0](https://v0.dev/) - build a website ([example](https://v0.dev/chat/rewarding-todo-app-J6E72SnGxUq))
  - [Replit](https://replit.com/) - general purpose app builder with a lot of tools
  - [Bolt](https://bolt.new/) - build a website
  - [Windsurf](https://codeium.com/windsurf) - cursor alternative - IDE
  - [Trae](https://www.trae.ai/) - cursor alternative - IDE
-
-prompt examples.
