@@ -6,6 +6,8 @@ Scan the QR code below to access the project repository:
 
 <img src="https://api.qrserver.com/v1/create-qr-code/?color=000000&amp;bgcolor=FFFFFF&amp;data=https%3A%2F%2Fgithub.com%2Fhulmaker%2Fai-club&amp;qzone=1&amp;margin=0&amp;size=400x400&amp;ecc=L" alt="qr code" width="200"/>
 
+Get cursor [here](https://www.cursor.com/)
+
 ## About the Workshop
 
 ### Who Is This For?
