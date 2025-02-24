@@ -12,13 +12,13 @@ Scan the QR code below to access the project repository:
 
 This workshop is designed for anyone interested in AI-assisted programming, whether you're an experienced coder looking to optimize your workflow or a beginner exploring new tools.
 
-- **Experienced Coders** – Learn how to effectively use Cursor’s composer mode to streamline your workflow instead of coding everything manually.
+- **Experienced Coders** – Learn how to effectively use [Cursor](https://www.cursor.com/) and it’s composer mode to streamline your workflow instead of coding everything manually.
 - **Beginners** – Follow along or use alternative tools (V0, Replit, etc.) to create simple projects—more details later.
 
 ### Schedule
 
 - **30 min** – **Introduction**: Overview of AI-assisted programming, introduction to Cursor, and how to leverage AI tools effectively. We will go through an example of how to use Cursor to build a simple project.
-- **60 min** – **Hands-on Project Work**
+- **60 min** – **Hands-on Project Work**: Instructions below (Part 2)
 
 ## Introduction to Cursor
 
@@ -89,6 +89,8 @@ This workshop is designed for anyone interested in AI-assisted programming, whet
 4. **Break Down Tasks** – Structure the project into smaller, manageable tasks for better organization.
 5. **Refine and Iterate** – Regularly review progress, update descriptions, and utilize AI tools for efficiency.
 6. **Test and Finalize** – Ensure functionality, review the final implementation, and document any necessary changes.
+
+Remember to try different approaches, editing modes and context settings with `@` symbols.
 
 ## Best Practices for AI Prompting
 
