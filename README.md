@@ -1,4 +1,4 @@
-# AI Club 03 - Assisted Programming Workshop
+# AI Club 03 - Part 1: Introduction to Cursor
 
 ## Access the Repository
 
@@ -15,36 +15,10 @@ This workshop is designed for anyone interested in AI-assisted programming, whet
 - **Experienced Coders** – Learn how to effectively use Cursor’s composer mode to streamline your workflow instead of coding everything manually.
 - **Beginners** – Follow along or use alternative tools (V0, Replit, etc.) to create simple projects—more details later.
 
-### Workshop Schedule
+### Schedule
 
-- **30 min** – **Introduction**: Overview of AI-assisted programming, introduction to Cursor, and how to leverage AI tools effectively.
+- **30 min** – **Introduction**: Overview of AI-assisted programming, introduction to Cursor, and how to leverage AI tools effectively. We will go through an example of how to use Cursor to build a simple project.
 - **60 min** – **Hands-on Project Work**
-
-## Project Options
-
-1. **Data Processing & Visualization** – Scrape data from the internet and visualize it (or use sutka.log to analyze swimming pool visits).
-2. **Console/Graphical Game** – Create a game like Snake or Minesweeper.
-3. **Real-time Face Emotion Detection** – Use a laptop camera to detect facial expressions.
-4. **Other** – Any other project you want to work on.
-
-## Setup Instructions
-
-1. [Install Cursor](https://www.cursor.com/downloads) if you haven’t already.
-2. Clone the repository:
-   ```sh
-   git clone git@github.com:hulmaker/ai-club.git
-   ```
-3. Open the `ai-club` folder in Cursor.
-
-## Guidelines for Project Development
-
-1. **Define Your Project** – Write a clear description in the README or Notepad tab outlining your goals.
-2. **Specify the Environment and Tools** – Identify the programming languages, frameworks, and libraries required.
-3. **Map Inputs and Outputs** – Determine what assets are needed and what results are expected.
-4. **Break Down Tasks** – Structure the project into smaller, manageable tasks for better organization.
-5. **Refine and Iterate** – Regularly review progress, update descriptions, and utilize AI tools for efficiency.
-6. **Test and Finalize** – Ensure functionality, review the final implementation, and document any necessary changes.
-
 
 ## Introduction to Cursor
 
@@ -68,24 +42,15 @@ This workshop is designed for anyone interested in AI-assisted programming, whet
 - [**Model Selection**](https://docs.cursor.com/settings/models) – Choose the AI model that best fits your needs.
 - [**MCP Servers**](https://docs.cursor.com/context/model-context-protocol) – Standardized AI context protocol ([Learn More](https://modelcontextprotocol.io/introduction)).
 
-## Useful Resources
+### Useful Resources
 
 - [Cursor Tips & Tricks](https://youtu.be/A9BiNPf34Z4?si=sIdVXg2vnXbuKwb3)
 - [Cursor Rules](https://github.com/PatrickJS/awesome-cursorrules)
 - [Cursor Directory](https://cursor.directory)
-
-## Best Practices for AI Prompting
-
-- Be **specific** about what you want the AI to do.
-- Provide **clear instructions** instead of asking vague questions.
-- Include **context** such as examples, references, or error messages.
-
-### Additional Prompting Resources
-
 - [OpenAI Prompt Engineering](https://platform.openai.com/docs/guides/prompt-engineering/strategy-use-external-tools)
 - [Prompting Guide](https://www.promptingguide.ai/)
 
-## Alternative AI-Assisted Programming Tools
+### Alternative AI-Assisted Programming Tools
 
 - [**V0**](https://v0.dev/) – Build websites ([Example](https://v0.dev/chat/rewarding-todo-app-J6E72SnGxUq)).
 - [**Replit**](https://replit.com/) – General-purpose app development.
@@ -93,3 +58,40 @@ This workshop is designed for anyone interested in AI-assisted programming, whet
 - [**Windsurf**](https://codeium.com/windsurf) – Cursor alternative IDE.
 - [**Trae**](https://www.trae.ai/) – Another Cursor alternative IDE.
 
+
+--- 
+
+
+# Part 2: Hands-on Project Work
+
+### Example Project Ideas
+1. **Data Processing & Visualization** – Download/Scrape data from the internet and visualize it (or use sutka.log to analyze swimming pool visits).
+2. **Console/Graphical Game** – Create a game like Snake or Minesweeper.
+3. **Real-time Face Emotion Detection** – Use a laptop camera to detect facial expressions.
+4. **Personalized To-Do List** – Build a simple to-do app with hidden features. (e.g. show a cat image when all tasks are completed)
+5. **Weather App** – Fetch real-time weather data from an API and display it in a user-friendly interface.
+4. **Other** – Any other project you want to work on.
+
+## Setup Instructions
+
+1. [Install Cursor](https://www.cursor.com/downloads) if you haven’t already.
+2. Clone the repository:
+   ```sh
+   git clone git@github.com:hulmaker/ai-club.git
+   ```
+3. Open the `ai-club` folder in Cursor.
+
+## Guidelines for Project Development
+
+1. **Define Your Project** – Write a clear description in the README or Notepad tab outlining your goals.
+2. **Specify the Environment and Tools** – Identify the programming languages, frameworks, and libraries required.
+3. **Map Inputs and Outputs** – Determine what assets are needed and what results are expected.
+4. **Break Down Tasks** – Structure the project into smaller, manageable tasks for better organization.
+5. **Refine and Iterate** – Regularly review progress, update descriptions, and utilize AI tools for efficiency.
+6. **Test and Finalize** – Ensure functionality, review the final implementation, and document any necessary changes.
+
+## Best Practices for AI Prompting
+
+- Be **specific** about what you want the AI to do.
+- Provide **clear instructions** instead of asking vague questions.
+- Include **context** such as examples, references, or error messages.
